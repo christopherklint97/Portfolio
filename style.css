@@ -22,3 +22,15 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+.hero {
+    background-color: darkblue;
+    min-height: 20vw;
+    height: auto;
+    width: 100%;
+}
+
+.hero-text {
+    color: white;
+    display: none;
+}
