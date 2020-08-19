@@ -1,18 +1,15 @@
 'use strict';
 
-const heroText = document.querySelector('.hero-text').textContent;
-const heroArray = heroText.split('.');
+let i = 0;
+const txt = 'Hello there! My name is Chris and I am a Fullstack Developer. I specialize in React, Nodejs, and Python.';
+const speed = 75;
 
-heroArray.pop()
+typewriter();
 
-setTimeout(writeText(), 3 * 1000);
-
-function writeText() {
-
-
-    for (let i = 0; i < heroArray[0].length; i++) {
-        console.log(heroArray[0][i]);
-    };
-};
-
-console.log(document.styleSheets);
+function typewriter() {
+    if (i < txt.length) {
+        document.querySelector('.hero-text').textContent += txt.charAt(i);
+        i++;
+        setTimeout(typewriter, speed);
+    }
+}
