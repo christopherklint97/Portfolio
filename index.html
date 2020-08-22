@@ -14,9 +14,9 @@
     <header>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,6 +26,35 @@
             <h1 class="hero-text">
             </h1>
         </div>
+        <section>
+            <h1 id="about">About</h1>
+        </section>
+        <section>
+            <h1 id="portfolio">Portfolio</h1>
+        </section>
+        <section class="contact-section">
+            <h1 id="contact">Contact</h1>
+            <p>Below are many ways for you to reach out!</p>
+            <form action="" method="GET">
+                <div class="name-and-email-form">
+                    <label for="name">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </label>
+
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </label>
+                </div>
+                <div class="message-form">
+                    <label for="message">
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="What's on your mind?"></textarea>
+                    </label>
+
+                </div>
+
+            </form>
+        </section>
     </main>
 
 </body>

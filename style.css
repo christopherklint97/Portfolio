@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+/* Declaring variables */
+:root {
+    --text-color: #EBEBEB;
+    --main-bg-color: #333333;
+    --second-bg-color: #04728B;
+}
+
+/* Main stylesheet */
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
@@ -9,10 +17,8 @@
 
 body {
     margin: 10px;
-}
-
-nav {
-    border-bottom: solid;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
 }
 
 ul {
@@ -27,17 +33,38 @@ li {
     padding: 1vw;
 }
 
+a:any-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .hero {
-    background-color: darkblue;
+    background-color: var(--second-bg-color);
     min-height: 20vw;
     height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8vw;
+    border-radius: 10px;
 }
 
 .hero-text {
-    color: white;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.contact-section {
+    flex-flow: column;
+    text-align: center;
+}
+
+h1 {
     text-align: center;
 }
