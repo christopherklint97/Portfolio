@@ -2,17 +2,15 @@
 
 /* Declaring variables */
 :root {
-    --text-color: #EBEBEB;
-    --main-bg-color: #333333;
-    --second-bg-color: #04728B;
+    --text-color: #f1faee;
+    --main-bg-color: #1d3557;
+    --second-bg-color: #457b9d;
 }
 
 /* Main stylesheet */
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
@@ -27,6 +25,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-left: 0;
 }
 
 li {
@@ -40,29 +39,21 @@ a:any-link {
 
 .hero {
     background-color: var(--second-bg-color);
-    min-height: 20vw;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8vw;
-    border-radius: 10px;
+    height: 10rem;
 }
 
 .hero-text {
     text-align: center;
+    margin: auto 0;
+    line-height: 10rem;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    text-align: left;
+    
 }
 
 .contact-section {
-    flex-flow: column;
-    text-align: center;
+    
 }
 
 h1 {
