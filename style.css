@@ -18,78 +18,25 @@
 body {
     background-color: var(--main-bg-color);
     color: var(--text-color);
+    padding-top: 5rem;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0;
-}
-
-li {
-    padding: 2vw;
+i {
+    font-size: 2rem;
 }
 
 a:any-link {
-    text-decoration: none;
     color: var(--text-color);
 }
 
-.hero {
-    background-color: var(--second-bg-color);
-    height: 20rem;
+a:hover {
+    color: rgb(192, 192, 192);
 }
 
-.hero-text {
-    text-align: center;
-    padding: 4%;
+.bg-secondary {
+    background-color: #3a6ea5!important;
 }
 
-.contact-section {
-    width: 40vw;
-    margin: 0 auto;
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2.5rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-form {
-  padding: 1rem;
-}
-
-#name, #email, #message {
-    width: 100%;
-    padding: 5px;
-    margin: 10px 0;
-}
-
-#submit-button {
-    float: right;
-    margin-bottom: 10px;
-}
-
-footer {
-    height: 10vw;
-    background-color:#14273E;
-    margin-top: 4rem;
-    text-align: center;
-    padding: 2%;
-}
-
-#submit-button {
-    padding: 10px;
+#about, #portfolio, #contact {
+    padding-top: 5rem;
 }
