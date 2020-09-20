@@ -2,41 +2,51 @@
 
 /* Declaring variables */
 :root {
-    --text-color: #f1faee;
-    --main-bg-color: #1d3557;
-    --second-bg-color: #457b9d;
+  --text-color: #f1faee;
+  --main-bg-color: #1d3557;
+  --second-bg-color: #457b9d;
 }
 
 /* Main stylesheet */
-* {
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* { 
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: var(--main-bg-color);
-    color: var(--text-color);
-    padding-top: 5rem;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  padding-top: 5rem;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  #hero-text {
+    text-align: center;
+  }
+
+p.about {
+  font-size: 1.5rem;
 }
 
 i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 a:any-link {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 a:hover {
-    color: rgb(192, 192, 192);
+  color: rgb(192, 192, 192);
 }
 
 .bg-secondary {
-    background-color: #3a6ea5!important;
+  background-color: #3a6ea5!important;
 }
 
 #about, #portfolio, #contact {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
