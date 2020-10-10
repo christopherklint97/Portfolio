@@ -2,156 +2,176 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/9b0c10cb9c.js" crossorigin="anonymous"></script>
-  <!-- My CSS -->
-  <link rel="stylesheet" href="style.css">
-  <!-- SEO -->
-  <title>Christopher Klint - Software Developer Portfolio</title>
-  <meta name="description"
-    content="This portfolio shows many projects using JavaScript, jQuery, Axios AJAX, Bootstrap, and more." </head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/9b0c10cb9c.js" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- SEO -->
+    <title>Christopher Klint - Software Developer Portfolio</title>
+    <meta name="description"
+        content="This portfolio shows many projects using JavaScript, jQuery, Axios AJAX, Bootstrap, and more.">
+</head>
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Christopher Klint</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Christopher Klint</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="display-4 pt-5" id="hero-text">Hi, I'm Chris. I'm a Fullstack Developer working in JavaScript and
+            Python.</h1>
+
+        <section>
+            <h2 class="text-center" id="about">About</h2>
+            <p class="about my-4">As a Software Developer, I am taking an intense coding bootcamp called <a
+                    href="https://www.springboard.com/"><u>Springboard</u></a> where I am focusing on Fullstack
+                development in JavaScript (React and Node) and Python (Flask).
+            <p class="about my-4">I currently have skills in Python (Flask, Jinja, unit testing), JavaScript (jQuery,
+                Bootstrap, Axios AJAX, Jasmine testing) Git and Ubuntu shell command line.</p>
+            <p class="about my-4">I have created projects including a to-do app called Simply To-Do, a Boggle game with
+                Python backend, and a Giphy app that interacts with the Giphy API. </p>
+        </section>
+
+        <section>
+            <h2 class="text-center" id="portfolio">Portfolio</h2>
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
+                        <div class="card-body">
+                            <h3 class="card-title">Simply To-Do</h3>
+                            <h5 class="card-subtitle mb-2"><em>JavaScript</em></h5>
+                            <p class="card-text">Simple to-do app using DOM manipulation and localStorage.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://christopherklint97.github.io/Simply-ToDo-App/" target="_blank"
+                                class="card-link"><button class="btn btn-light">Live</button></a>
+                            <a href="https://github.com/christopherklint97/Simply-ToDo-App" target="_blank"
+                                class="card-link"><button class="btn btn-light">Code</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
+                        <div class="card-body">
+                            <h3 class="card-title">Giphy Party</h3>
+                            <h5 class="card-subtitle mb-2"><em>JavaScript, Axios AJAX, jQuery, Bootstrap</em></h5>
+                            <p class="card-text">Uses the Giphy API through axios to display random gifs.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://christopherklint97.github.io/Giphy-Party/" target="_blank"
+                                class="card-link"><button class="btn btn-light">Live</button></a>
+                            <a href="https://github.com/christopherklint97/Giphy-Party" target="_blank"
+                                class="card-link"><button class="btn btn-light">Code</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
+                        <div class="card-body">
+                            <h3 class="card-title">MyMovies</h3>
+                            <h5 class="card-subtitle mb-2"><em>JavaScript, jQuery</em></h5>
+                            <p class="card-text">A movie app using jQuery that keeps track of movies you watched and
+                                their ratings.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://christopherklint97.github.io/MyMovies/" target="_blank"
+                                class="card-link"><button class="btn btn-light">Live</button></a>
+                            <a href="https://github.com/christopherklint97/MyMovies" target="_blank"
+                                class="card-link"><button class="btn btn-light">Code</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
+                        <div class="card-body">
+                            <h3 class="card-title">Memory Game</h3>
+                            <h5 class="card-subtitle mb-2"><em>JavaScript</em></h5>
+                            <p class="card-text">A card memory game made in Vanilla Javacsript.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://christopherklint97.github.io/Memory-Game/" target="_blank"
+                                class="card-link"><button class="btn btn-light">Live</button></a>
+                            <a href="https://github.com/christopherklint97/Memory-Game" target="_blank"
+                                class="card-link"><button class="btn btn-light">Code</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
+                        <div class="card-body">
+                            <h3 class="card-title">Boggle Game</h3>
+                            <h5 class="card-subtitle mb-2"><em>Python, Flask, Jinja, unittest, JavaScript, Axios AJAX,
+                                    jQuery, Bootstrap</em></h5>
+                            <p class="card-text">A word guessing game using a Python backend with a JS frontend.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://repl.it/@christopherklin/Boggle-Game" target="_blank"
+                                class="card-link"><button class="btn btn-light">Live Demo</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
+                        <div class="card-body">
+                            <h3 class="card-title">Connect4</h3>
+                            <h5 class="card-subtitle mb-2"><em>JavaScript</em></h5>
+                            <p class="card-text">A connect four game made in Vanilla Javacsript.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://christopherklint97.github.io/Connect4/" target="_blank"
+                                class="card-link"><button class="btn btn-light">Live</button></a>
+                            <a href="https://github.com/christopherklint97/Connect4" target="_blank"
+                                class="card-link"><button class="btn btn-light">Code</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section text-center">
+            <h2 id="contact">Contact</h2>
+            <p>Feel free to get in touch!</p>
+            <a href="mailto:christopher.klint@gmail.com">christopher.klint@gmail.com</a>
+        </section>
+    </main>
+
+    <footer class="container-fluid text-center">
+        <ul class="nav justify-content-center my-5">
+            <li class="nav-item mx-2 footer">
+                <a href="https://github.com/christopherklint97" target="_blank"><i class="fab fa-github"></i></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+            <li class="nav-item mx-2 footer">
+                <a href="https://www.linkedin.com/in/christopherklint/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+        </ul>
+    </footer>
 
-  <main class="container">
-    <h1 class="display-4 pt-5" id="hero-text">Hi, I'm Chris. I'm a Software Developer working in JavaScript.</h1>
-
-    <section>
-      <h2 class="text-center" id="about">About</h2>
-      <p class="about my-4">As a Software Developer, I am taking an intense coding bootcamp called <a
-          href="https://www.springboard.com/"><u>Springboard</u></a> where I am focusing on Fullstack
-        development in JavaScript (React and Node) and Python (Django and Flask).
-      <p class="about my-4">I currently have skills in JavaScript, jQuery, Bootstrap, Axios AJAX, Jasmine testing,
-        Git and
-        Ubuntu shell command line.</p>
-      <p class="about my-4">I have created projects including a to-do app called Simply To-Do, a memory game, and a
-        Giphy
-        app that interacts with the Giphy API. </p>
-    </section>
-
-    <section>
-      <h2 class="text-center" id="portfolio">Portfolio</h2>
-      <div class="container">
-        <div class="row d-flex justify-content-around">
-          <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
-            <div class="card-body">
-              <h3 class="card-title">Simply To-Do</h3>
-              <h5 class="card-subtitle mb-2"><em>JavaScript</em></h5>
-              <p class="card-text">Simple to-do app using DOM manipulation and localStorage.</p>
-              <a href="https://christopherklint97.github.io/Simply-ToDo-App/" target="_blank" class="card-link"><button
-                  class="btn btn-light">Live</button></a>
-              <a href="https://github.com/christopherklint97/Simply-ToDo-App" target="_blank" class="card-link"><button
-                  class="btn btn-light">Code</button></a>
-            </div>
-          </div>
-          <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
-            <div class="card-body">
-              <h3 class="card-title">Giphy Party</h3>
-              <h5 class="card-subtitle mb-2"><em>JavaScript, Axios AJAX, jQuery, Bootstrap</em></h5>
-              <p class="card-text">Uses the Giphy API through axios to display random gifs.</p>
-              <a href="https://christopherklint97.github.io/Giphy-Party/" target="_blank" class="card-link"><button
-                  class="btn btn-light">Live</button></a>
-              <a href="https://github.com/christopherklint97/Giphy-Party" target="_blank" class="card-link"><button
-                  class="btn btn-light">Code</button></a>
-            </div>
-          </div>
-          <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
-            <div class="card-body">
-              <h3 class="card-title">MyMovies</h3>
-              <h5 class="card-subtitle mb-2"><em>JavaScript, jQuery</em></h5>
-              <p class="card-text">A movie app using jQuery that keeps track of movies you watched and
-                their ratings.</p>
-              <a href="https://christopherklint97.github.io/MyMovies/" target="_blank" class="card-link"><button
-                  class="btn btn-light">Live</button></a>
-              <a href="https://github.com/christopherklint97/MyMovies" target="_blank" class="card-link"><button
-                  class="btn btn-light">Code</button></a>
-            </div>
-          </div>
-          <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
-            <div class="card-body">
-              <h3 class="card-title">Memory Game</h3>
-              <h5 class="card-subtitle mb-2"><em>JavaScript</em></h5>
-              <p class="card-text">A card memory game made in Vanilla Javacsript.</p>
-              <a href="https://christopherklint97.github.io/Memory-Game/" target="_blank" class="card-link"><button
-                  class="btn btn-light">Live</button></a>
-              <a href="https://github.com/christopherklint97/Memory-Game" target="_blank" class="card-link"><button
-                  class="btn btn-light">Code</button></a>
-            </div>
-          </div>
-          <div class="card col-12 col-lg-3 bg-secondary my-3 mx-1">
-            <div class="card-body">
-              <h3 class="card-title">Connect4</h3>
-              <h5 class="card-subtitle mb-2"><em>JavaScript</em></h5>
-              <p class="card-text">A connect four game made in Vanilla Javacsript.</p>
-              <a href="https://christopherklint97.github.io/Connect4/" target="_blank" class="card-link"><button
-                  class="btn btn-light">Live</button></a>
-              <a href="https://github.com/christopherklint97/Connect4" target="_blank" class="card-link"><button
-                  class="btn btn-light">Code</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section text-center">
-      <h2 id="contact">Contact</h2>
-      <p>Feel free to get in touch!</p>
-      <a href="mailto:christopher.klint@gmail.com">christopher.klint@gmail.com</a>
-    </section>
-  </main>
-
-  <footer class="container-fluid text-center">
-    <ul class="nav justify-content-center my-5">
-      <li class="nav-item mx-2 footer">
-        <a href="https://github.com/christopherklint97" target="_blank"><i class="fab fa-github"></i></a>
-      </li>
-      <li class="nav-item mx-2 footer">
-        <a href="https://www.linkedin.com/in/christopherklint/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </li>
-    </ul>
-  </footer>
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

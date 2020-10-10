@@ -51,3 +51,8 @@ a:hover {
 #about, #portfolio, #contact {
   padding-top: 5rem;
 }
+
+.card-footer {
+    background-color: transparent;
+    border: none;
+}
